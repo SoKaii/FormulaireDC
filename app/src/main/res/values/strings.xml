@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AubRecettage</string>
+    <string name="background">Background</string>
+    <string name="nouvelle_recette">NOUVELLE RECETTE</string>
+    <string name="consulter_recettes">CONSULTER RECETTES</string>
+    <string name="recettage_aubervilliers">Recettage Aubervilliers</string>
+    <string name="todo">TODO</string>
+    <string name="rackage">Rackage</string>
+    <string name="r_alisateur_du_ticket">Réalisateur du ticket :</string>
+    <string name="nom_de_la_salle">Nom de la salle :</string>
+    <string name="commencer_la_recette">Commencer la recette</string>
+    <string name="n_26e_de_l_quipement">N° 26E de l\'équipement :</string>
+    <string name="callepinage_de_la_baie">Callepinage de la baie :</string>
+    <string name="num_ro_de_ticket">Numéro de ticket :</string>
+    <string name="n_nles_informations_quipement_constructeur_mod_le_sont_en_coh_rence_avec_le_terrain_n">Les informations « équipement/constructeur/modèle » sont en cohérence avec le « Terrain » ?</string>
+    <string name="num_ro_26e_de_l_quipement">Numéro 26E de l\'équipement :</string>
+    <string name="n_nla_localisation_salle_baie_est_en_coh_rence_avec_le_terrain_n">La localisation « Salle/Baie » est en cohérence avec le « Terrain » ?</string>
+    <string name="n_nle_hostname_des_quipements_d_crits_dans_le_document_de_r_f_rence_sont_en_coh_rence_avec_le_terrain_n">Le hostname des équipements décrits dans le document de référence sont en cohérence avec le « Terrain » ?</string>
+    <string name="non">NON</string>
+    <string name="commentaire">Commentaire :</string>
+    <string name="n_nl_tiquetage_des_hostname_face_av_face_arr_format_d_tiquetage_mod_le_d_tiquette_emplacement_est_correct_n">L\'étiquetage des hostname (Face AV, Face ARR, Format d’étiquetage, modèle d’étiquette , emplacement …) est correct ?</string>
+    <string name="oui">OUI</string>
+    <string name="click_to_add">Non renseignée</string>
+</resources>

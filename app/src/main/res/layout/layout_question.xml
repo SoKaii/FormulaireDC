@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/questionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="\n\nLes informations  « équipement/constructeur/modèle » sont en cohérence avec le « Terrain » ? \n"
+        android:textColor="@color/orange" />
+
+    <RadioGroup
+        android:id="@+id/questionRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/questionYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="00dp"
+            android:buttonTint="@color/black"
+            android:text="OUI"
+            android:textColor="@color/orange" />
+
+        <RadioButton
+            android:id="@+id/questionNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:buttonTint="@color/black"
+            android:text="NON"
+            android:textColor="@color/orange" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/questionCommentTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:text="Commentaire : "
+        android:textColor="@color/orange" />
+
+    <EditText
+        android:id="@+id/questionComment"
+        style="@style/edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp" />
+
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aubervilliers.orange.aubrecettage">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:windowSoftInputMode="stateUnchanged">
+        <activity android:name=".ui.ChoixRecetteActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.HomeActivity" />
+        <activity
+            android:name=".ui.infostickets.InfosProcessJ4Activity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.infostickets.InfosJ4Activity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.infostickets.InfosRackageActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.infostickets.InfosCablageActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.ExportActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.fiches.J4Activity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.fiches.CablageActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.fiches.ProcessJ4Activity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.fiches.RackageActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity
+            android:name=".ui.RecapActivity"
+            android:windowSoftInputMode="stateUnchanged" />
+        <activity android:name=".ui.ConfirmationActivity"></activity>
+    </application>
+
+</manifest>

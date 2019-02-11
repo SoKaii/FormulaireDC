@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.ChoixRecetteActivity">
+
+    <TextView
+        android:id="@+id/titreChoixRecette"
+        style="@style/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Choix du type de formulaire" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="3dp"
+        android:background="@color/black">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonRackage"
+            style="@style/button"
+            android:layout_width="340dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            android:text="Incident Environnement Technique" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/buttonCableSimple"
+            style="@style/button"
+            android:layout_width="340dp"
+            android:layout_height="150dp"
+            android:layout_marginRight="10dp"
+            android:text="Navette 26E" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
